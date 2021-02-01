@@ -1,0 +1,13 @@
+{
+  "name": "course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "cmd": "index.js"
+  },
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
+}
