@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
-import {getCurrentDate, addToCurrentDate, subToCurrentDate} from './utils/index.js'
+import {getCurrentDate, addToCurrentDate, subToCurrentDate, guesser} from './utils/index.js'
 
 
 yargs(hideBin(process.argv))
+    .command('$0', 'the default command', () => {}, () => {
+        guesser()
+    })
   .command(
     'current',
     'get current <time>',
