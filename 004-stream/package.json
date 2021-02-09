@@ -1,0 +1,13 @@
+{
+  "name": "004-stream",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "game": "index.js"
+  },
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
+}
