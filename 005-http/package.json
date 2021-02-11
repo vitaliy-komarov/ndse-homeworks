@@ -1,0 +1,15 @@
+{
+  "name": "005-http",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.21.1",
+    "dotenv": "8.2.0",
+    "yargs": "16.2.0"
+  },
+  "bin": {
+    "weather": "index.js"
+  }
+}
